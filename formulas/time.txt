@@ -1,0 +1,33 @@
+# Time Conversion Formula
+
+To convert between any two time units, first convert the input value to seconds, then from seconds to the target unit.
+
+## Conversion to seconds (base unit):
+
+- Years (average): 1 year = 31,557,600 seconds (365.25 days)
+- Months (average): 1 month = 2,629,800 seconds (30.44 days)
+- Weeks: 1 week = 604,800 seconds
+- Days: 1 day = 86,400 seconds
+- Hours: 1 hour = 3,600 seconds
+- Minutes: 1 minute = 60 seconds
+- Seconds: 1 second = 1 second
+- Milliseconds: 1 millisecond = 0.001 seconds
+- Microseconds: 1 microsecond = 0.000001 seconds
+- Nanoseconds: 1 nanosecond = 1e-9 seconds
+- Picoseconds: 1 picosecond = 1e-12 seconds
+
+## General Formula
+
+1. Convert input value to seconds:
+   seconds = value * (conversion factor of fromUnit)
+2. Convert seconds to target unit:
+   result = seconds / (conversion factor of toUnit)
+
+## Example
+Convert 3 days to hours:
+- 3 days * 86,400 = 259,200 seconds   
+- 259,200 / 3,600 = 72 hours
+
+---
+
+Use this formula for all time conversions.

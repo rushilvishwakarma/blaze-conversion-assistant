@@ -1,0 +1,43 @@
+# Mass Conversion Formula
+
+To convert between any two mass units, first convert the input value to grams, then from grams to the target unit.
+
+## Conversion to grams (base unit):
+
+- Metric Tons (t): 1 t = 1,000,000 g
+- Kilograms (kg): 1 kg = 1,000 g
+- Grams (g): 1 g = 1 g
+- Milligrams (mg): 1 mg = 0.001 g
+- Micrograms (µg): 1 µg = 0.000001 g
+- Quintal (q): 1 q = 100,000 g
+- Pounds (lb): 1 lb = 453.59237 g
+- Ounces (oz): 1 oz = 28.349523125 g
+- Carats (ct): 1 ct = 0.2 g
+- Grains (gr): 1 gr = 0.06479891 g
+- Long Tons (l.t): 1 l.t = 1,016,046.9088 g
+- Short Tons (sh.t): 1 sh.t = 907,184.74 g
+- US Hundredweight (cwt US): 1 cwt (US) = 45,359.237 g
+- UK Hundredweight (cwt UK): 1 cwt (UK) = 50,802.34544 g
+- Stone (st): 1 st = 6,350.29318 g
+- Dram (dr): 1 dr = 1.7718451953125 g
+- Dan: 1 dan = 50,000 g
+- Jin: 1 jin = 500 g
+- Qian: 1 qian = 5 g
+- Liang: 1 liang = 50 g
+- Jin (Taiwan): 1 jin (TW) = 600 g
+
+## General Formula
+
+1. Convert input value to grams:
+   grams = value * (conversion factor of fromUnit)
+2. Convert grams to target unit:
+   result = grams / (conversion factor of toUnit)
+
+## Example
+Convert 2 kilograms to pounds:
+- 2 kg * 1000 = 2000 grams
+- 2000 / 453.59237 = 4.4092 pounds
+
+---
+
+Use this formula for all mass conversions.

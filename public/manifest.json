@@ -1,0 +1,17 @@
+{
+  "name": "Blaze Conversion Assistant",
+  "short_name": "Blaze Conversion Assistant",
+  "description": "An AI Assistant for learning unit conversion and local file conversion.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/flame.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

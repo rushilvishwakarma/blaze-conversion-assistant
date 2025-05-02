@@ -1,0 +1,44 @@
+# Data Storage Conversion Formula
+
+To convert between any two data storage units, first convert the input value to bytes, then from bytes to the target unit.
+
+## Conversion to bytes (base unit):
+
+- Bits (b): 1 bit = 0.125 bytes
+- Bytes (B): 1 byte = 1 byte
+- Kilobytes (KB): 1 KB = 1,000 bytes
+- Kibibytes (KiB): 1 KiB = 1,024 bytes
+- Megabytes (MB): 1 MB = 1,000,000 bytes
+- Mebibytes (MiB): 1 MiB = 1,048,576 bytes
+- Gigabytes (GB): 1 GB = 1,000,000,000 bytes
+- Gibibytes (GiB): 1 GiB = 1,073,741,824 bytes
+- Terabytes (TB): 1 TB = 1,000,000,000,000 bytes
+- Tebibytes (TiB): 1 TiB = 1,099,511,627,776 bytes
+- Petabytes (PB): 1 PB = 1,000,000,000,000,000 bytes
+- Pebibytes (PiB): 1 PiB = 1,125,899,906,842,624 bytes
+- Exabytes (EB): 1 EB = 1,000,000,000,000,000,000 bytes
+- Exbibytes (EiB): 1 EiB = 1,152,921,504,606,846,976 bytes
+- Zettabytes (ZB): 1 ZB = 1,000,000,000,000,000,000,000 bytes
+- Zebibytes (ZiB): 1 ZiB = 1,180,591,620,717,411,303,424 bytes
+- Yottabytes (YB): 1 YB = 1,000,000,000,000,000,000,000,000 bytes
+- Yobibytes (YiB): 1 YiB = 1,208,925,819,614,629,174,706,176 bytes
+
+## General Formula
+
+1. Convert input value to bytes:
+   bytes = value * (conversion factor of fromUnit)
+2. Convert bytes to target unit:
+   result = bytes / (conversion factor of toUnit)
+
+## Example
+Convert 5 GB to MB:
+- 5 GB * 1,000,000,000 = 5,000,000,000 bytes
+- 5,000,000,000 / 1,000,000 = 5,000 MB
+
+## Note on Binary vs. Decimal Units
+- Decimal units (KB, MB, GB, etc.) use powers of 1,000 (10^3, 10^6, 10^9, etc.)
+- Binary units (KiB, MiB, GiB, etc.) use powers of 1,024 (2^10, 2^20, 2^30, etc.)
+
+---
+
+Use this formula for all data storage conversions.

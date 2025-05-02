@@ -1,0 +1,35 @@
+# Temperature Conversion Formula
+
+Temperature conversions require specific formulas for each conversion rather than a simple multiplication factor. All temperatures can be converted by first converting to Celsius as an intermediate unit.
+
+## Conversion Formulas:
+
+### From any unit to Celsius (intermediate step):
+- Celsius to Celsius: No change
+- Fahrenheit to Celsius: (°F - 32) × 5/9
+- Kelvin to Celsius: K - 273.15
+- Rankine to Celsius: (°R - 491.67) × 5/9
+- Reaumur to Celsius: °Re × 5/4
+
+### From Celsius to target unit:
+- Celsius to Celsius: No change
+- Celsius to Fahrenheit: (°C × 9/5) + 32
+- Celsius to Kelvin: °C + 273.15
+- Celsius to Rankine: (°C × 9/5) + 491.67
+- Celsius to Reaumur: °C × 4/5
+
+## Examples:
+
+1. Convert 68°F to Celsius:
+   - (68 - 32) × 5/9 = 20°C
+
+2. Convert 25°C to Kelvin:
+   - 25 + 273.15 = 298.15K
+
+3. Convert 300K to Fahrenheit:
+   - First to Celsius: 300 - 273.15 = 26.85°C
+   - Then to Fahrenheit: 26.85 × 9/5 + 32 = 80.33°F
+
+---
+
+Use these formulas for all temperature conversions.

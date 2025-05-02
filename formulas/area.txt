@@ -1,0 +1,41 @@
+# Area Conversion Formula
+
+To convert between any two area units, first convert the input value to square meters, then from square meters to the target unit.
+
+## Conversion to square meters (base unit):
+
+- Square Kilometers (km²): 1 km² = 1,000,000 m²
+- Hectares (ha): 1 ha = 10,000 m²
+- Ares (a): 1 a = 100 m²
+- Square Meters (m²): 1 m² = 1 m²
+- Square Decimeters (dm²): 1 dm² = 0.01 m²
+- Square Centimeters (cm²): 1 cm² = 0.0001 m²
+- Square Millimeters (mm²): 1 mm² = 0.000001 m²
+- Square Microns (µm²): 1 µm² = 1e-12 m²
+- Acres (ac): 1 ac = 4,046.86 m²
+- Square Miles (mi²): 1 mi² = 2,589,988.11 m²
+- Square Yards (yd²): 1 yd² = 0.836127 m²
+- Square Feet (ft²): 1 ft² = 0.092903 m²
+- Square Inches (in²): 1 in² = 0.00064516 m²
+- Square Rods (rd²): 1 rd² = 25.2929 m²
+- Qing: 1 qing = 66,666.67 m²
+- Mu: 1 mu = 666.67 m²
+- Square Chi (chi²): 1 chi² = 0.1111 m²
+- Square Cun (cun²): 1 cun² = 0.001111 m²
+- Square Gongli (gongli²): 1 gongli² = 1,000,000 m²
+
+## General Formula
+
+1. Convert input value to square meters:
+   square_meters = value * (conversion factor of fromUnit)
+2. Convert square meters to target unit:
+   result = square_meters / (conversion factor of toUnit)
+
+## Example
+Convert 5 acres to hectares:
+- 5 ac * 4046.86 = 20,234.3 square meters
+- 20,234.3 / 10,000 = 2.02343 hectares
+
+---
+
+Use this formula for all area conversions.

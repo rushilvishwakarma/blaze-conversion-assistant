@@ -1,0 +1,42 @@
+# Volume Conversion Formula
+
+To convert between any two volume units, first convert the input value to cubic meters, then from cubic meters to the target unit.
+
+## Conversion to cubic meters (base unit):
+
+- Cubic Meters (m³): 1 m³ = 1 m³
+- Cubic Kilometers (km³): 1 km³ = 1,000,000,000 m³
+- Cubic Centimeters (cm³): 1 cm³ = 0.000001 m³
+- Cubic Millimeters (mm³): 1 mm³ = 1e-9 m³
+- Liters (L): 1 L = 0.001 m³
+- Milliliters (mL): 1 mL = 0.000001 m³
+- Gallons (US) (gal): 1 gal = 0.00378541 m³
+- Quarts (US) (qt): 1 qt = 0.000946353 m³
+- Pints (US) (pt): 1 pt = 0.000473176 m³
+- Cups (US): 1 cup = 0.000236588 m³
+- Fluid Ounces (US) (fl oz): 1 fl oz = 2.9574e-5 m³
+- Tablespoons (US) (tbsp): 1 tbsp = 1.4787e-5 m³
+- Teaspoons (US) (tsp): 1 tsp = 4.9289e-6 m³
+- Cubic Inches (in³): 1 in³ = 1.6387e-5 m³
+- Cubic Feet (ft³): 1 ft³ = 0.0283168 m³
+- Cubic Yards (yd³): 1 yd³ = 0.764555 m³
+- Imperial Gallons (UK): 1 UK gal = 0.00454609 m³
+- Imperial Quarts (UK): 1 UK qt = 0.00113652 m³
+- Imperial Pints (UK): 1 UK pt = 0.000568261 m³
+- Imperial Fluid Ounces (UK): 1 UK fl oz = 2.8413e-5 m³
+
+## General Formula
+
+1. Convert input value to cubic meters:
+   cubic_meters = value * (conversion factor of fromUnit)
+2. Convert cubic meters to target unit:
+   result = cubic_meters / (conversion factor of toUnit)
+
+## Example
+Convert 5 gallons to liters:
+- 5 gal * 0.00378541 = 0.01892705 cubic meters
+- 0.01892705 / 0.001 = 18.93 liters
+
+---
+
+Use this formula for all volume conversions.
