@@ -18,10 +18,27 @@ export default function HeroSection() {
           <div className="space-x-4">
             <Link href="/conversion-chat">
               <Button size="lg">
-                Try Conversion Chat
+                Get Started
               </Button>
             </Link>
-
+          </div>
+          <div className="flex flex-col items-center space-y-2">
+            <a 
+              href="https://www.python.org/downloads/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-primary underline underline-offset-2 hover:text-primary/80 transition-colors"
+            >
+              Install Python
+            </a>
+            <a 
+              href="https://pip.pypa.io/en/stable/installation/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-primary underline underline-offset-2 hover:text-primary/80 transition-colors"
+            >
+              Install pip
+            </a>
           </div>
         </div>
       </div>
